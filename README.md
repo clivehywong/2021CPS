@@ -120,7 +120,9 @@ Execute the R scripts in `MixedEffectLasso/` to run cross-validated variable sel
 > **(A)** Overview of model estimation: Task connectivity matrices are preselected via one-sample *t*-tests (*p* < 0.05), followed by Mixed-Effect LASSO for feature selection, and final linear mixed-model fitting.  
 > **(B)** Differentiation of positive vs. negative interregional connectivity.  
 > **(C)** Alignment of connectivity direction and regression slope for speed-connectivity correlates.
-![Fig 3: Model Estimation Procedure](https://dfzljdn9uc3pi.cloudfront.net/2021/117556/1-s2.0-S1053811920310417-gr3.jpg)
+![Fig 3: Model Estimation Procedure]
+<img width="652" height="524" alt="1-s2 0-S1053811920310417-gr3" src="https://github.com/user-attachments/assets/d4012d6c-5878-45a1-9898-2455fd5c9a6d" />
+
 
 ### Fig. 4: Significant Fronto-Cerebellar Effective Connectivity Network
 > Predictive VAR(1) connectivity network for Cognitive Speed (CS) identified by Mixed-Effect LASSO.

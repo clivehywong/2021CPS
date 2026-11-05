@@ -86,11 +86,15 @@ The analysis incorporates 13 predefined ROIs derived from publicly available pro
 ### Quick Setup
 
 # Clone the repository
+
+```bash
+
 git clone [https://github.com/clivehywong/2021CPS.git](https://github.com/clivehywong/2021CPS.git)
 cd 2021CPS
 
 # Install required R dependencies
 Rscript -e 'install.packages(c("lme4", "glmmLasso", "emmeans", "vars", "ppcor", "tseries", "MuMIn"))'
+```
 
 ---
 
@@ -141,7 +145,7 @@ Execute the R scripts in `MixedEffectLasso/` to run cross-validated variable sel
 ## 📖 Citation
 
 If you use this codebase or dataset in your academic research, please cite our paper:
-
+```bibtex
 @article{Wong2021FrontoCerebellar,
   title={Fronto-Cerebellar Connectivity Mediating Cognitive Processing Speed},
   author={Wong, Clive H. Y. and Liu, Jiao and Lee, Tatia M. C. and Tao, Jing and Wong, Alex W. K. and Chau, Bolton K. H. and Chen, Lidian and Chan, Chetwyn C. H.},
@@ -151,6 +155,7 @@ If you use this codebase or dataset in your academic research, please cite our p
   year={2021},
   doi={10.1016/j.neuroimage.2020.117556}
 }
+```
 
 ---
 

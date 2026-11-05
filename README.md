@@ -23,7 +23,6 @@ By employing a multi-modal (auditory & visual) cross-compatibility Arrow Task, f
 - **Dual Mechanism:** Demonstrates that cognitive speed is driven by the dynamic interplay between **cerebellar-guided automaticity** (short-range) and **frontal top-down attentional control** (long-range).
 - **Methodological Advance:** Multivariate vector autoregression (VAR(1)) significantly outperformed traditional bivariate functional connectivity measures (e.g., Pearson's correlation, gPPI) in predictive performance.
 
-
 ---
 
 ## 📁 Repository Structure & Key Scripts
@@ -45,16 +44,19 @@ By employing a multi-modal (auditory & visual) cross-compatibility Arrow Task, f
 
 Among the 6 connectivity measures, the **first-order vector autoregressive model (VAR(1))** combined with `MMLasso.R` yielded the best predictive fit for Cognitive Speed (CS). The optimal model identified **6 significant effective connectivity paths**:
 
-* **Long-range Paths (Cognitive Control):**
-* `LMFC → MCV6` (Left Medial Frontal to Cerebellar Vermis VI)
-* `RIFJ → RCH6` (Right Inferior Frontal Junction to Right Cerebellum VI)
-* `MCV6 → RMFC` (Cerebellar Vermis VI to Right Medial Frontal)
+### Long-range Paths (Cognitive Control):
 
-* **Short-range Paths (Rule-based S-R Processes):**
-* `LFEF → RFEF` (Bilateral Frontal Eye-Fields)
-* `LCH6 → RCH6` (Bilateral Cerebellar Lobule VI)
-* `MCV6 → LTHAL` (Cerebellar Vermis to Left Thalamus)
+* **LMFC → MCV6** (Left Medial Frontal to Cerebellar Vermis VI)
+* **RIFJ → RCH6** (Right Inferior Frontal Junction to Right Cerebellum VI)
+* **MCV6 → RMFC** (Cerebellar Vermis VI to Right Medial Frontal)
 
+### Short-range Paths (Rule-based S-R Processes):
+
+* **LFEF → RFEF** (Bilateral Frontal Eye-Fields)
+* **LCH6 → RCH6** (Bilateral Cerebellar Lobule VI)
+* **MCV6 → LTHAL** (Cerebellar Vermis to Left Thalamus)
+
+---
 
 ## 📊 Dataset & Region of Interest (ROI) Overview
 

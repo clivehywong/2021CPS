@@ -161,7 +161,7 @@ If you use this codebase or dataset in your academic research, please cite our p
 
 ## 📬 Contact & License
 
-* **Corresponding Authors:** Clive H. Y. Wong ([hycwong@gmail.com](https://www.google.com/search?q=mailto%3Ahyewong%40gmail.com)), Chetwyn C. H. Chan?
+* **Corresponding Authors:** Clive H. Y. Wong ([hycwong@gmail.com](https://www.google.com/search?q=mailto%3Ahycwong%40gmail.com)), Chetwyn C. H. Chan?
 * **License:** Distributed under the GNU General Public License v3.0 (GPL-3.0)
 
 ---
